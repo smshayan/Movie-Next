@@ -29,7 +29,8 @@ export default async function Home() {
           id = {movies.id}
           title={movies.title}
           poster_path={movies.poster_path}
-          release_date={movies.release_date}        />
+          release_date={movies.release_date}   
+               />
         ))}
       </div>
     </main>
