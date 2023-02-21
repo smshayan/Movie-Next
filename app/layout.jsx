@@ -8,7 +8,7 @@ export default  function RootLayout({ children }) {
     <html lang="en">
       
       <head />
-      <body className={`mx-48`}>{children}</body>
+      <body className={`bg-black mx-10 text-white	`}>{children}</body>
     </html>
   )
 }
