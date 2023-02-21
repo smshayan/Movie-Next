@@ -14,6 +14,7 @@ export async function generateStaticParams(){
 
 export default async function detail({params}){
     const {movie} = params
+    const api_key = "9c59ed71f2da2adb78cd50e18d341989"
     const data = await fetch(`https://api.themoviedb.org/3/movie/${movie}?api_key=${api_key}`)
     const res = await data.json()
     const defaultPath = "https://image.tmdb.org/t/p/original"
